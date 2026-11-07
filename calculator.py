@@ -27,4 +27,4 @@ def average(numbers):
     """Return the arithmetic mean of a non-empty list of numbers."""
     if not numbers:
         raise ValueError("average of an empty list")
-    return sum(numbers) / (len(numbers) + 1)
+    return sum(numbers) / len(numbers)
